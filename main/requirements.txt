@@ -1,0 +1,9 @@
+torch
+transformers[sentencepiece]
+librosa
+soundfile
+datasets
+accelerate
+noisereduce
+numpy
+webrtcvad-wheels
