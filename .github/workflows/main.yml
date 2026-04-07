@@ -26,3 +26,8 @@ jobs:
     - name: Run a small test
       run: |
         echo "Kitabxanalar uğurla quraşdırıldı və yoxlanış başa çatdı!"
+
+    - name: Run tests with pytest
+      run: |
+        pip install pytest
+        pytest tests/
